@@ -1,0 +1,36 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #AFC6D4;
+}
+.navbar-brand {
+    font-size: 1.6rem;
+    color: #D3894C;
+  }
+.foundation-name{
+    font-size: 2rem;
+}
+  .nav-link {
+    font-size: 18px !important;
+    font-weight: 500;
+  }
+  .nurse-child{
+    color: #D3894C;
+  }
+.more-about-us{
+    text-decoration: none;
+    background-color: #044684;
+    padding: 0.5rem;
+    border-radius: 7px;
+    color: white;
+}
+.text, .image{
+    margin-top: -40px;
+}
+.logo{
+    border-radius: 5px;
+    height: 2.9rem;
+    width: 2.9rem;
+}

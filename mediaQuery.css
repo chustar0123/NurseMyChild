@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px){
+.image{
+    margin-top: 4rem;
+}
+.container{
+    margin-top: 0.5rem;
+}
+.navbar-brand{
+    font-size: 1.3rem;
+    margin-right: auto;
+}
+.logo{
+    border-radius: 5px;
+    height: 3rem;
+    width: 3rem;
+}
+}
