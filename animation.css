@@ -1,0 +1,19 @@
+.animate-image {
+    position: relative; /* Ensure the image can be animated relative to its position */
+    animation: moveRotate 2s ease-in-out forwards; /* Animation with rotation and movement */
+  }
+  
+  @keyframes moveRotate {
+    0% {
+      transform: translateX(100%) rotate(0deg); /* Start off-screen to the right */
+      opacity: 0; /* Hidden initially */
+    }
+    50% {
+      opacity: 1; /* Fade in */
+    }
+    100% {
+      transform: translateX(0) rotate(360deg); /* Fully rotated and in position */
+      opacity: 1; /* Fully visible */
+    }
+  }
+  
